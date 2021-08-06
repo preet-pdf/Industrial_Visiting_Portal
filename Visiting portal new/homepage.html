@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+  </head>
+  <body>
+<nav>
+    <label class="logo">Visit X</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Sign-In</a></li>
+            <li><a href="#">Sign-Up</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    
+</nav>
+<div class="wrapper">
+    <div class="card">
+      <div class="card-image"></div>
+      <div class="card-text">
+        <span class="date">4 days ago</span>
+        <h2>Bisag-n</h2>
+        <p>Bisag-n is world famous organization. bisag-n gives internship oppurtunity to freshers.</p>
+      </div>
+      <div class="card-stats">
+        <div class="stat">
+          <div class="value">Rating</div>
+          <div class="type">4.9/5</div>
+        </div>
+        <div class="stat border">
+          <div class="value">Type</div>
+          <div class="type">Space</div>
+        </div>
+        <div class="stat">
+          <div class="value">Vistors</div>
+          <div class="type">15k</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image card2"></div>
+      <div class="card-text card2">
+        <span class="date">1 week ago</span>
+        <h2>charusat</h2>
+        <p>ACharusat is well known standard university for all over india.charusat is aicte 1st number provided university</p>
+      </div>
+      <div class="card-stats card2">
+        <div class="stat">
+          <div class="value">Rating</div>
+          <div class="type">4/5</div>
+        </div>
+        <div class="stat border">
+          <div class="value">Type</div>
+          <div class="type">Educational</div>
+        </div>
+        <div class="stat">
+          <div class="value">Visitors</div>
+          <div class="type">4k</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-image card3"></div>
+        <div class="card-text card3">
+          <span class="date">3 week ago</span>
+          <h2>iSRO</h2>
+          <p>Isro is well known indian space organization which now famous for its mangal yan mission for low cost budgets</p>
+        </div>
+        <div class="card-stats card3">
+          <div class="stat">
+            <div class="value">Rating</div>
+            <div class="type">5/5</div>
+          </div>
+          <div class="stat border">
+            <div class="value">Type</div>
+            <div class="type">Space</div>
+          </div>
+          <div class="stat">
+            <div class="value">Visitors</div>
+            <div class="type">43k</div>
+          </div>
+        </div>
+      </div>
+    
+</div>
+  </body>
+</html>
